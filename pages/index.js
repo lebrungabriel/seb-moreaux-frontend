@@ -1,7 +1,13 @@
-import Home from '../components/Home';
+import Home from "../components/Home";
+import Navigation from "../components/Navigation";
 
 function Index() {
-  return <Home />;
+  return (
+    <>
+      <Navigation />
+      <Home />
+    </>
+  );
 }
 
 export default Index;
