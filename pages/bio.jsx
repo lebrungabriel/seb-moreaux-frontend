@@ -5,9 +5,9 @@ const Bio = () => {
   return (
     <>
       <Navigation />
-      <div className="h-screen w-screen flex flex-col justify-around items-center">
-        <div className="w-full h-full flex flex-col justify-center px-3 text-justify text-xl">
-          <h1 className="uppercase tracking-widest text-2xl mb-10">A propos</h1>
+      <div className="min-h-screen w-screen flex flex-col justify-around items-center">
+        <h1 className="uppercase tracking-widest text-3xl mb-5">A propos</h1>
+        <div className="w-full h-full flex flex-col justify-center px-3 py-5 text-justify text-xl">
           <p>
             Sébastien Moreaux a grandi en région parisienne. <br /> Né dans une
             famille de mélomanes, il débute le piano à ses 10 ans en autodidacte
