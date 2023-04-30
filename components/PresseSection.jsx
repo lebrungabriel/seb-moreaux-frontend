@@ -3,11 +3,11 @@ import PresseCard from "./PresseCard";
 
 const PresseSection = () => {
   return (
-    <section className="w-screen min-h-screen bg-orange-100 flex flex-col items-center">
+    <section className="w-screen min-h-screen bg-white flex flex-col items-center">
       {/* <h1 className="uppercase text-4xl tracking-widest mb-20 text-left w-full px-5">
         Presse
       </h1> */}
-      <h1 className="uppercase tracking-widest text-3xl mb-5">Presse</h1>
+      <h1 className="uppercase tracking-widest text-3xl my-10">Presse</h1>
       <div>
         <PresseCard
           source="/assets/france-musique.png"

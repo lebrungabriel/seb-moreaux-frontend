@@ -7,9 +7,9 @@ const ConcertsCard = (props) => {
         <p>{props.date}</p>
         <p className="text-lg">{props.location}</p>
       </div>
-      <button className="bg-white text-[#275176] border border-[#275176] px-10 py-3">
+      {/* <button className="bg-white text-[#275176] border border-[#275176] px-10 py-3">
         {props.booking}
-      </button>
+      </button> */}
       <div className="w-[80%] h-[1px] bg-gray-400" />
     </div>
   );
